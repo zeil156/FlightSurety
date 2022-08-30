@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <!-- <link rel="stylesheet" href="flightsurety.css" /> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="#">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <ul class="nav navbar-nav ml-auto"><btn class="btn btn-primary" id="register-flights">Register Initial Flights</btn></ul>
+    </nav>
+
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label>
+
+            <select id="flightlist">
+                <option value="BA234">BA 234: Sep 15th at 8:30 AM</option>
+                <option value="BA456">BA 456: Sep 16th at 9:30 AM</option>
+                <option value="BA678">BA 678: Sep 17th at 10:30 AM</option>
+            </select>
+            <btn class="btn btn-primary" id="buy-insurance">Buy Flight Insurance</btn>
+            <btn class="btn btn-primary" id="submit-oracle">Check Flight Status</btn>
+            <btn class="btn btn-primary" id="withdraw-payouts">Withdraw Payouts</btn>
+        </div>
+
+        <hr>
+
+        <!-- <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label>
+            <input type="text" id="flight-number">
+            <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div> -->
+    </main>
+
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
